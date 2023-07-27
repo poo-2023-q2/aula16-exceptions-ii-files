@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FileMethods",
+            "request": "launch",
+            "mainClass": "FileMethods",
+            "projectName": "semana07-files_7b091666"
+        },
+        {
+            "type": "java",
+            "name": "GradeReadingUtil",
+            "request": "launch",
+            "mainClass": "GradeReadingUtil",
+            "projectName": "semana07-files_7b091666"
+        },
+        {
+            "type": "java",
+            "name": "GradeWritingUtil",
+            "request": "launch",
+            "mainClass": "GradeWritingUtil",
+            "projectName": "semana07-files_7b091666"
+        },
+        {
+            "type": "java",
+            "name": "StudentReaderMain",
+            "request": "launch",
+            "mainClass": "StudentReaderMain",
+            "projectName": "semana07-files_7b091666",
+            "args": ["data/students.csv"]
+        },
+        {
+            "type": "java",
+            "name": "StudentWriterMain",
+            "request": "launch",
+            "mainClass": "StudentWriterMain",
+            "projectName": "semana07-files_7b091666",
+            "args": ["data/students.csv"]
+        }
+    ]
+}
