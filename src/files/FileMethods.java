@@ -1,5 +1,10 @@
+package files;
 import java.io.File;
 
+/**
+ * A classe File possui um conjunto de metodos que permite
+ * obter diversas informacoes de um arquivo.
+ */
 public class FileMethods {
     public static void main(String[] args) {
         File file = new File("data/test.txt");

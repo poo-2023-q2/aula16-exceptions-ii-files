@@ -1,3 +1,8 @@
+package csv;
+
+/**
+ * Teste de serializacao de um array de estudantes para CSV.
+ */
 public class StudentWriterMain {
 
     public static Student[] makeStudents() {
@@ -10,12 +15,11 @@ public class StudentWriterMain {
     }
 
     /**
-     * Test client
+     * Test client.
+     * 
      * @param args the arguments
      */
     public static void main(String[] args) {
-        
-
         try {
             StudentCSVWriter studentCSVWriter = new StudentCSVWriter(args[0], ";");
 
@@ -27,7 +31,7 @@ public class StudentWriterMain {
             // mensagem amigavel para o usuario
             System.out.println("Nao foi possivel ler o arquivo");
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("USo: StudentWriterMain <arquivo csv>");
+            System.out.println("Uso: StudentWriterMain <arquivo csv>");
         } finally {
             System.out.println("File written successfully");
         }

@@ -1,7 +1,11 @@
+package files;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/**
+ * Exemplo de como ler um arquivo CSV por meio da classe Scanner.
+ */
 public class GradeReadingUtil {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(new File("data/notas.csv"))) {

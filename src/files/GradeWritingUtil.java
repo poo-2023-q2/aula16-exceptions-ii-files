@@ -1,7 +1,11 @@
+package files;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
+/**
+ * Exemplo de como escrever em um arquivo utilizando a classe PrintWriter.
+ */
 public class GradeWritingUtil {
     public static void main(String[] args) {
 

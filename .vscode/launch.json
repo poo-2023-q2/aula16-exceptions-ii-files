@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentReaderMain",
+            "request": "launch",
+            "mainClass": "csv.StudentReaderMain",
+            "projectName": "aula16-exceptions-ii-files_6aa618d6",
+            "args": ["data/students.csv"]
+        },
+        {
+            "type": "java",
+            "name": "FileMethods",
+            "request": "launch",
+            "mainClass": "files.FileMethods",
+            "projectName": "aula16-exceptions-ii-files_6aa618d6"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -37,7 +52,9 @@
             "request": "launch",
             "mainClass": "StudentReaderMain",
             "projectName": "semana07-files_7b091666",
-            "args": ["data/students.csv"]
+            "args": [
+                "data/students.csv"
+            ]
         },
         {
             "type": "java",
@@ -45,7 +62,9 @@
             "request": "launch",
             "mainClass": "StudentWriterMain",
             "projectName": "semana07-files_7b091666",
-            "args": ["data/students.csv"]
+            "args": [
+                "data/students.csv"
+            ]
         }
     ]
 }

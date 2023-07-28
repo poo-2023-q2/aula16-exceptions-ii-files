@@ -1,6 +1,11 @@
+package csv;
+
+/**
+ * Teste de deserializacao de um arquivo CSV de estudantes.
+ */
 public class StudentReaderMain {
 
-    public static void main(String[] args) {        
+    public static void main(String[] args) {
         
         try {
             StudentCSVReader reader = new StudentCSVReader(args[0], ";");

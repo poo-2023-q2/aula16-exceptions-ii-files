@@ -1,5 +1,10 @@
+package csv;
 import java.util.Locale;
 
+/**
+ * Um simples objeto imutável que pode ser serializado 
+ * em CSV.
+ */
 public class Student {
     private final String firstName;
     private final String lastName;
@@ -11,6 +16,12 @@ public class Student {
         this.grade = grade;
     }
 
+    /**
+     * Serializa o objeto no formato CSV.
+     *
+     * @param separator o separator do formato
+     * @return uma string contendo a serializacao
+     */
     public String toCSV(String separator) {
         return String.join(separator, firstName, lastName, 
             String.format(Locale.US, "%.3f", grade)) + "\n";
